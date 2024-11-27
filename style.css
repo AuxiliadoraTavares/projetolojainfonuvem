@@ -1,12 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display:flex;
-  }
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #8a8491;
-    color: #918a4c;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+
+
+header {
+  background: #6200ea;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+
+#divBusca {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#txtBusca {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+#btnBusca {
+  padding: 10px 20px;
+  background: #3700b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+#btnBusca:hover {
+  background: #4a148c;
+}
+
+
+nav ol {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ol a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+nav ol a:hover {
+  background: #ffd600;
+  color: #333;
+  border-radius: 5px;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px;
+}
+
+main section {
+  text-align: center;
+  max-width: 400px;
+}
+
+main section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+footer a {
+  color: #ffd600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
